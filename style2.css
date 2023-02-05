@@ -1,0 +1,368 @@
+@media screen and (max-width:960px) {
+    .headlist{
+        display: none;
+    }
+    #sign-in{
+        display: none;
+    }
+    header{
+      width:100%;
+    }
+    #kuda-logo{
+        width: 17%;
+        margin-left: -40px;
+        margin-right: 40%;
+    }
+    #join{
+        display: none;
+    }
+    #join1{
+        display: none;
+    }
+
+    #bars{
+        display: inline;
+        margin-left: 5%;
+    }
+    #section1{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #section1text{
+        width: 75%;
+       margin: auto;
+       text-align: center;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    .mobile-store{
+        display: inline;
+    }
+    #sec1image{
+      top: 150px;
+        position: relative;
+        margin: auto;
+    }
+ 
+    #card{
+        width: 65px;
+        height: 100px;
+        z-index: 999;
+        position: absolute;
+        transform: rotateZ(-48deg);
+        top: -40px;
+        right: 190px;   
+    }
+    #cellphone{
+        height: 160px;
+        width: 100px;
+        z-index: 999;
+        position: absolute;
+        top: -90px;
+        right: 140px;
+    filter: drop-shadow(2px 2px 4px rgb(126, 126, 159));
+    }
+    .earth-rotate{
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        background-image: url(earth-map.png);
+        border-radius: 50%;
+        animation:mymove 5s infinite ;
+        animation-delay: 5s;
+    }
+    @keyframes mymove{
+        100%{
+             background-position-x: 0px ;
+        }
+        0%{
+            background-position-x: 1000px ;
+       }
+    }
+    #orbitsmall{
+        width: 100px;
+        height: 100px;
+        border: 1px solid rgba(81, 31, 138, 0.388);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-width: thin;
+    }
+    .spsp{
+        width: 50px;
+    } 
+    .qwqw{
+     position: absolute;
+     left: 25px;
+     top: 25px;
+     animation: circle 6s linear infinite;
+    }
+   @keyframes circle{
+        0%{
+            transform: rotate(0deg)translatey(-50px);
+        }
+        100%{
+            transform: rotate(360deg)translatey(-50px);
+        }
+    }
+    
+    #orbit{
+        width: 200px;
+        height: 200px;
+        border: 1px solid rgba(81, 31, 138, 0.388);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-width: thin;
+    }
+    .ddww{
+        position: absolute;
+       top:65px;
+       left: 65px;
+       animation: orbit-rolling 5s linear infinite;
+    }
+    .dddd{
+        width: 70px;
+    }
+   @keyframes orbit-rolling{
+        0%{
+            transform: rotate(0deg)translate(-100px);
+        }
+        100%{
+            transform: rotate(360deg)translate(-100px);
+        }
+    }
+    
+    #orbit1{
+        width: 270px;
+        height: 270px;
+        border: 1px solid rgba(81, 31, 138, 0.388);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-width: thin;
+    }
+    .ffff{
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        animation: orbit-rolling2 4s linear infinite;
+    }
+   @keyframes orbit-rolling2{
+        0%{
+            transform: rotate(0deg)translate(135px);
+        }
+        100%{
+            transform: rotate(360deg)translate(135px);
+        }
+    }
+    .gggg{
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        animation: orbit-rolling1 4s linear infinite;
+    }
+    @keyframes orbit-rolling1{
+        0%{
+            transform: rotate(0deg)translatey(-135px);
+        }
+        100%{
+            transform: rotate(360deg)translatey(-135px);
+        }
+    }
+    #section2{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    #section2text{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #sec2image{
+        margin: 0;
+        height: 300px;
+        width: 300px;
+        margin: auto;
+    }
+    .image2{
+      width: 75%;
+    }
+    .image21{
+       width: 70%;
+       top: -250px;
+       left: 100px;
+    }
+    #section3{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    #section3text{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    #sec3image{
+        margin: auto;
+    }
+    #section4{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    #section4text{
+       width: 90%;
+       margin: auto;
+       text-align: center;
+
+    }
+    #sec4image{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+  
+    #sec4-mini-image{
+        height: 230px;
+        width: 200px;
+        right: -10px;
+    }
+    #sec4-img{
+        width: 250px;
+        top: -100px;
+    }
+    #sec4-mini-1{
+        width: 50%;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        animation: popout 2s ease-in;
+    }
+    #sec4-mini-2{
+        width: 50%;
+        left: 90px;
+    }
+    #sec4-mini-3{
+        width: 25%;
+        right: 90px;
+    }
+    
+    #section5{
+        display:flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+    }
+    #section5text{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #sec5image{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    #section6{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    #section6text{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    #sec6image{
+        margin: auto;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    #hello{
+        width: 100%;
+    }
+    #app-image{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-right: 10px;
+        padding: 10px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    #app-text{
+        text-align: center;
+    
+    }
+    #logo-foot{
+        margin: 20px;
+    }
+    #list{
+        display:block ;
+        width: 97%;
+        margin: 0;
+        margin-top: 150px;
+        margin-right: 20px;
+    }
+    
+    .ul{
+        margin: 0;
+        margin-left: -20px;
+        width: 50%;
+    }
+    #store{
+        margin: auto;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .store-link{
+        width: 30%;
+    }
+    #text{
+        display: block;
+        margin: 0;
+        margin-left: 20px;
+    }  
+    #subtext{
+        margin:0;
+        width: 100%;   
+    }
+    #subtext1-group{
+        display: flex;
+    }
+    #subtext1{
+        margin: 0;
+        width: 45%; 
+    }
+    #foot-text{
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #svg-image{
+        display: none;
+    }
+   p{
+    opacity: 0.6;
+   }
+ 
+   
+ 
+}
