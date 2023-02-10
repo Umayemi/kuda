@@ -19,10 +19,13 @@
     #join1{
         display: none;
     }
-
+ 
     #bars{
         display: inline;
-        margin-left: 5%;
+        margin-left: 6%;
+    }
+    .mobile-menu{
+    
     }
     #section1{
         width: 100%;

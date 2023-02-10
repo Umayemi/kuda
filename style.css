@@ -17,10 +17,96 @@ ul{
     margin-right: 35px;
    
 }
+nav{
+    position: relative;
+}
 #bars{
     display: none;
 }
+.bar1{
+    height:2px;
+    width:25px;
+    background-color:  rgba(70, 29, 117, 0.959);
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+.bar2{
+    height:2px;
+    width:25px;
+    background-color: rgba(70, 29, 117, 0.959) ;
+    transition: 0.4s;
+    
+}
+.open .bar1{
+    
+    transform: rotate(45deg) translateY(7px) ;
+}
+.open .bar2{
+    transform: rotate(-45deg) translateY(-8px);
+}
+.open .mobile-menu{
+    display: block;
+}
 
+
+.mobile-menu{
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 2500px;
+    top: 50px;
+    left: 0;
+    padding-left: 20px;
+    background-color: white;   
+    overflow: scroll;
+}
+#mobile-sign{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: hidden;
+    color:white;
+    background-color:rgba(70, 29, 117, 0.959) ;
+}
+#mobile-business{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: hidden;
+    background-color:rgba(94, 26, 172, 0.137) ;
+}
+#mobile-list{
+    display: block;
+}
+.mobile-listed{
+   display: flex;
+   margin-left: -40px;
+   padding-top: 10px;
+   font-size: 15px;
+   color: black;
+}
+.mobile-listed1{
+    margin-left: -40px;
+    font-size: 15px;
+    color: black;
+ }
+ .eded{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    display: flex;
+  
+ }
+ .Features-image{
+    width: 60px;
+    margin-top: -20px;
+    margin-left: -15px;
+ }
 header{
     display: flex;
     align-items: center;
@@ -495,8 +581,8 @@ p{
     margin-bottom: 15px;
 }
 #foot-text{
-    font-size: 13px;
-    font-weight: 100;
+    font-size: 15px;
+   
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
