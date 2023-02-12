@@ -351,12 +351,17 @@
     }
     #subtext1{
         margin: 0;
+        width: 45%;   
+    }
+    #subtext2{
+        margin: 0;
         width: 45%; 
+        margin-left: 50px;  
     }
     #foot-text{
         margin: 0;
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     
     #svg-image{
